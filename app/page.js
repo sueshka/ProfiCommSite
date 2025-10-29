@@ -537,6 +537,16 @@ const inputStyle = {
                       <Image src="/images/mama_team.jpg" alt="" fill style={{ objectFit: "cover", borderRadius: "20px" }}/>
                     </div>
 
+                      {/* Tanya Info */}
+                     <div style={{
+                      flex: "0 0 774px",
+                      height: "695px",
+                      scrollSnapAlign: "center",
+                      position: "relative"
+                    }}>
+                      <Image src="/images/MamaInfo.png" alt="" fill style={{ objectFit: "contain", borderRadius: "20px" }}/>
+                    </div>
+
                     {/* Photo Card Sasha*/}
                     <div style={{
                       flex: "0 0 774px",
@@ -547,15 +557,35 @@ const inputStyle = {
                       <Image src="/images/sasha_team.jpg" alt="" fill style={{ objectFit: "cover", borderRadius: "20px" }}/>
                     </div>
 
-                    {/* Photo Card Jibek
+                       {/* Sasha Info */}
+                     <div style={{
+                      flex: "0 0 774px",
+                      height: "695px",
+                      scrollSnapAlign: "center",
+                      position: "relative"
+                    }}>
+                      <Image src="/images/SashaInfo.png" alt="" fill style={{ objectFit: "contain", borderRadius: "20px" }}/>
+                    </div>
+
+                    {/* Photo Card Jibek */}
                     <div style={{
                       flex: "0 0 774px",
                       height: "695px",
                       scrollSnapAlign: "center",
                       position: "relative"
                     }}>
-                      <Image src="/images/slide3.png" alt="" fill style={{ objectFit: "cover", borderRadius: "20px" }}/>
-                    </div> */}
+                      <Image src="/images/Jibek1.jpg" alt="" fill style={{ objectFit: "cover", borderRadius: "20px" }}/>
+                    </div> 
+
+                       {/* Jibek Info */}
+                     <div style={{
+                      flex: "0 0 774px",
+                      height: "695px",
+                      scrollSnapAlign: "center",
+                      position: "relative"
+                    }}>
+                      <Image src="/images/JibekInfo.jpg" alt="" fill style={{ objectFit: "contain", borderRadius: "20px" }}/>
+                    </div>
 
                   </div>
                 </div>
