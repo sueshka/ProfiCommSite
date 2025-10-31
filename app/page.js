@@ -149,7 +149,7 @@ const inputStyle = {
 
         {/* Circle */}
         <div className="card-circle">
-          <Image src="/icons/businessman.svg" alt="" width={140} height={136} />
+          <img className="bsfix" src="/icons/businessman.png"/>
         </div>
 
         {/*  Text */}
@@ -188,7 +188,7 @@ const inputStyle = {
 
         {/* Circle */}
         <div className="card-circle">
-          <Image src="/icons/Woman.svg" alt="" width={140} height={136} />
+          <img src="/icons/Woman.png"/>
         </div>
 
         {/*  Text */}
@@ -228,7 +228,7 @@ const inputStyle = {
 
         {/* Circle */}
         <div className="card-circle">
-          <Image src="/icons/idea.svg" alt="" width={140} height={136} />
+          <img src="/icons/idea.png" />
         </div>
 
         {/*  Text */}
@@ -268,7 +268,7 @@ const inputStyle = {
 
         {/* Circle */}
         <div className="card-circle">
-          <Image src="/icons/rocket.svg" alt="" width={140} height={136} />
+          <img src="/icons/rocket.png" />
         </div>
 
         {/*  Text */}
@@ -308,7 +308,7 @@ const inputStyle = {
 
         {/* Circle */}
         <div className="card-circle">
-          <Image src="/icons/phone.svg" alt="" width={140} height={136} />
+          <img src="/icons/phone.png" />
         </div>
 
         {/*  Text */}
@@ -348,7 +348,7 @@ const inputStyle = {
 
         {/* Circle */}
         <div className="card-circle">
-          <Image src="/icons/thinker.svg" alt="" width={138} height={136} />
+          <img src="/icons/thinker.png" />
         </div>
 
         {/*  Text */}
@@ -410,7 +410,7 @@ const inputStyle = {
         {/* 1 Circle */}
         <div style={{ position: "relative", width: 200, height: 203 }}>
           {/* Black circle */}
-          <div style={{
+          <div className="samallerCircle" style={{
             width: "100%",
             height: "100%",
             background: "#000",
@@ -419,7 +419,7 @@ const inputStyle = {
             alignItems: "center",
             justifyContent: "center"
           }}>
-            <Image src="/icons/idshka.svg" alt="" width={195} height={195} style={{ objectFit: "contain" }}/>
+            <img src="/icons/idishka.png " width={190} height={190}/>
           </div>
 
           {/* Red circle */}
@@ -429,7 +429,7 @@ const inputStyle = {
           {/* 2 Circle */}
           <div style={{ position: "relative", width: 200, height: 203 }}>
             {/* Black Circle */}
-            <div style={{
+            <div className="samallerCircle" style={{
               width: "100%",
               height: "100%",
               background: "#000",
@@ -438,7 +438,7 @@ const inputStyle = {
               alignItems: "center",
               justifyContent: "center",
             }}>
-              <Image src="/icons/computer.svg" alt="" width={184} height={184} style={{ objectFit: "contain" }}/>
+              <img src="/icons/computer.png" width={190} height={190}/>
             </div>
 
             {/* Red Circle */}
@@ -449,7 +449,7 @@ const inputStyle = {
               <div style={{ position: "relative", width: 200, height: 203 }}>
 
                 {/* Black Circle */}
-                <div style={{
+                <div className="samallerCircle" style={{
                   width: "100%",
                   height: "100%",
                   background: "#000",
@@ -458,7 +458,7 @@ const inputStyle = {
                   alignItems: "center",
                   justifyContent: "center"
                 }}>
-                  <Image className="denushka "src="/icons/money.svg" alt="" width={205} height={205} unoptimized style={{ position:"relative", left:10 }}/>
+                  <img className="denushka "src="/icons/money.png" width={190} height={190} style={{marginLeft:20}}/>
                 </div>
 
                 {/* Red Circle */}
@@ -468,7 +468,7 @@ const inputStyle = {
             {/* 4 Circle */}
               <div style={{ position: "relative", width: 200, height: 203 }}>
                 {/* Black Circle */}
-                <div style={{
+                <div className="samallerCircle" style={{
                     width: "100%",
                     height: "100%",
                     background: "#000",
@@ -477,7 +477,7 @@ const inputStyle = {
                     alignItems: "center",
                     justifyContent: "center"
                 }}>
-                  <Image className="teama"src="/icons/team.svg" alt="" width={173} height={173} style={{ objectFit: "contain" }}/>
+                  <img className="teama"src="/icons/team.png" width={190} height={190}/>
                 </div>
 
                 {/* Red circle */}
@@ -488,7 +488,7 @@ const inputStyle = {
               <div style={{ position: "relative", width: 200, height: 203 }}>
 
                 {/* Черный круг */}
-                <div style={{
+                <div className="samallerCircle" style={{
                   width: "100%",
                   height: "100%",
                   background: "#000",
@@ -497,7 +497,7 @@ const inputStyle = {
                   alignItems: "center",
                   justifyContent: "center"
                 }}>
-                  <Image src="/icons/progress.svg" alt="" width={191} height={191} style={{ objectFit: "contain" }}/>
+                  <img src="/icons/progress.png" width={190} height={190}/>
                 </div>
 
                 {/* Red Circle */}
