@@ -28,7 +28,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media (max-width: 374px) and (max-width:375){
+@media (max-width: 375px) and (max-width:400px){
   .page-wrap {
     padding: 10px !important;
     min-height: 100vh;
@@ -37,10 +37,10 @@ body {
 
   .intro {
     gap: 12px !important;
-    margin-top: 3px;
+    margin-top: 9px;
   }
   .intro img {
-    width: 70px !important;
+    width: 60px !important;
     height: auto !important;
     inset: 0 !important;
     position: static !important;
@@ -313,12 +313,12 @@ body {
     font-size: clamp(10px, 6.5vw, 20px) !important;
     text-align: center !important;
     margin: 16px 0 !important;
-    transform: translateY(-395px);
+    transform: translateY(-430px);
   }
   .tariffs {
     position: static !important;
     gap: 16px !important;
-     transform: translateY(-410px);
+     transform: translateY(-450px);
   }
   .tariffs > div {
     width: 164px !important;
@@ -360,7 +360,7 @@ body {
     padding: 20px !important;
     top: 0 !important;
     gap: 16px !important;
-    transform: translateY(-350px);
+    transform: translateY(-400px);
     
   }
   .lead-form h2 {
@@ -480,7 +480,7 @@ body {
 }
 
 /* Мобилка */
-@media (min-width: 376px) and (max-width: 430px) {
+@media (min-width: 376px) and (max-width: 420px) {
   .page-wrap {
     padding: 10px !important;
     min-height: 100vh;
@@ -489,7 +489,7 @@ body {
 
   .intro {
     gap: 12px !important;
-    margin-top: -10px;
+    margin-top: 2x;
   }
   .intro img {
     width: 70px !important;
@@ -765,12 +765,12 @@ body {
     font-size: clamp(10px, 6.5vw, 20px) !important;
     text-align: center !important;
     margin: 16px 0 !important;
-    transform: translateY(-395px);
+    transform: translateY(-430px);
   }
   .tariffs {
     position: static !important;
     gap: 16px !important;
-     transform: translateY(-410px);
+     transform: translateY(-450px);
   }
   .tariffs > div {
     width: 164px !important;
@@ -812,7 +812,458 @@ body {
     padding: 20px !important;
     top: 0 !important;
     gap: 16px !important;
-    transform: translateY(-350px);
+    transform: translateY(-390px);
+    
+  }
+  .lead-form h2 {
+    font-size: clamp(18px, 6vw, 22px) !important;
+    margin-bottom: -25px !important;
+  }
+ 
+  .lead-form p {
+    font-size: 14px !important;
+    margin-bottom: 4px !important;
+  }
+  .lead-form input,
+  .lead-form textarea {
+    height: 52px !important;
+    font-size: 16px !important;
+    padding: 0 14px !important;
+    border-width: 1.5px !important;
+  }
+  .lead-form textarea {
+    height: 140px !important;
+    padding-top: 12px !important;
+    padding-bottom: 12px !important;
+  }
+  .lead-form button[type="submit"] {
+    height: 56px !important;
+    font-size: 16px !important;
+    border-radius: 16px !important;
+  }
+
+  .tariffs button {
+    all: unset !important; 
+    display: inline-block !important;
+    text-align: center !important;
+    background: transparent !important;
+    color: #fff !important;
+    border: 1px solid #fff !important;
+    border-radius: 15px !important;
+    font-size: 9px !important;
+    font-weight: 600 !important;
+    width: 100px !important;
+    height: 28px !important;
+    line-height: 24px !important;
+    padding: 0 !important;
+    margin-top: -7px !important;
+  }
+
+  .tariffs button:nth-child(2) {
+    background: #fff !important;
+    color: #000 !important;
+    border: 
+    none !important;
+  }
+
+  .btns1{
+    transform: translateY(10px);
+
+  }
+
+  .btns2{
+    transform: translateY(-11px);
+  }
+
+  .btns3{
+    transform: translateY(-10px);
+  }
+
+  .btns4{
+    transform: translateY(8px);
+  }
+
+   .CardBlack[style*="height"] {
+    height: 290px !important;
+  }
+  .CardRed[style*="height"] {
+    height: 390px !important;
+  }
+
+  .lead-form > div {
+    flex-direction: column !important;
+    gap: 5px !important;
+  }
+
+  .lead-form > div > div {
+    width: 100% !important;
+   
+  }
+
+  .lead-form input,
+  .lead-form textarea {
+    width: 100% !important;
+  }
+
+  .phone-block{
+    transform: translateY(-10px);
+
+  }
+
+  .desc-block{
+    transform: translateY(-20px);
+
+  }
+
+  .formbtn{
+    width: 150px !important;
+    display: block;      
+    margin: 0 auto;
+  }
+
+
+  .watermark{
+     font-weight: 600;
+     font-size: 15px !important;
+     margin-top: -320px !important; 
+     margin-bottom: 10px !important;  
+  }
+
+}
+
+@media (min-width: 430px) and (max-width: 500px) {
+  .page-wrap {
+    padding: 10px !important;
+    min-height: 100vh;
+    position: relative;
+  }
+
+  .intro {
+    gap: 12px !important;
+    margin-top: 0px;
+  }
+  .intro img {
+    width: 70px !important;
+    height: auto !important;
+    inset: 0 !important;
+    position: static !important;
+    transform: translateX(5px)
+    
+  }
+  .intro p {
+    font-size: clamp(5px, 4.5vw, 15px) !important;
+    position: static !important;
+    margin: 0 !important;
+    text-align: left;
+    transform: translateX(-10px);
+  }
+
+  /* Hero-блок (огромные заголовки и картинка) */
+  .hero * {
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+    right: auto !important;
+    transform: translateY(-4px)
+    
+  }
+  .hero h1 {
+    font-size: clamp(20px, 10vw, 35px) !important;
+    line-height: 1.1 !important;
+    margin: 8px 5px !important;
+    text-wrap: balance;
+    text-align: center;
+  }
+   .p-left {
+    font-size: clamp(5px, 4.8vw, 11px) !important;
+    margin: 2px 11px !important;
+    transform: translateY(-13px)
+    
+  }
+   .p-right {
+    font-size: clamp(5px, 4.8vw, 11px) !important;
+    margin: 2px 2px !important;
+    transform: translateY(-24px)
+    
+  }
+
+  .p-down {
+    font-size: clamp(5px, 4.8vw, 10px) !important;
+    margin: 2px 15px !important;
+    transform: translateY(20px)
+    
+  }
+   
+  .hero ul {
+    font-size: clamp(5px, 4.5vw, 10px) !important;
+    line-height: 1.4 !important;
+    padding-left: 0 !important;
+    margin: 8px 2px !important;
+    transform: translateY(-24px)
+  }
+  .hero img {
+    width: 52% !important;
+    height: auto !important;
+    display: block !important;
+    margin: 12px 160px 0 !important;
+    transform: translateY(-164px);
+    
+  }
+
+  /* Описание */
+  .desc {
+    position: static !important;
+  }
+  .desc p {
+    font-size: clamp(5px, 4.3vw, 10px) !important;
+    line-height: 1.45 !important;
+    text-align: center !important;
+    transform: translateY(-160px);
+  }
+
+  /* ИГРА ДЛЯ ВАС */
+  .who p {
+    font-size: clamp(10px, 7vw, 24px) !important;
+    margin: 16px 0 !important;
+    text-align: center !important;
+    transform: translateY(650px);
+  }
+
+  /* Карточки 1–6 */
+  .cards-container {
+    position: relative !important;
+    gap: 10px !important;
+    row-gap: 20px !important;
+    justify-content: center !important;
+    transform: translateY(635px);
+   
+  }
+  .cards-container > div {
+    width: 170px !important;
+    height: 150px !important;
+    padding-top: 52px !important; 
+  }
+  .cards-container p {
+    font-size: clamp(5px, 4.2vw, 13px) !important;
+    width: 150px!important;
+    top: 0 !important;
+    text-align: center;
+  }
+  .cards-container > div > div[style*="borderRadius: 116.5"] {
+    width: 53px !important;
+    height: 53px !important;
+    top: -48px !important;
+  }
+
+  .card-circle {
+    position: absolute;
+    top: -20px;                        
+    left: 50%;
+    transform: translateX(-50%);
+    width: 59px;
+    height: 59px;
+    background: #fff;
+    border-radius: 9999px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    z-index: 2;
+    }
+
+    .card-circle img{
+      width: 55px;
+      height:55px;
+      object-fit: contain;
+    }
+
+    .card-p1{
+      transform: translateY(-20px);
+    }
+
+    .card-p2{
+      transform: translateY(-20px);
+    }
+
+    .card-p3{
+      transform: translateY(-10px);
+    }
+
+    .card-p4{
+      transform: translateY(-15px);
+    }
+
+    .card-p5{
+      transform: translateY(-5px);
+    }
+    .card-p6{
+      transform: translateY(-5px);
+    }
+
+  .structure-left {
+    width: 100% !important;
+    height: auto !important;
+    position: static !important;
+  }
+  .structure-left .p1 {
+    font-size: clamp(10px, 6vw, 28px) !important;
+    transform: translateY(-135px);
+    padding: 0px 10px;
+  }
+  .structure-left .p2 {
+    font-size: clamp(9px, 6vw, 11px) !important;
+    transform: translateY(-85px);
+    width: 200px;
+  }
+
+  .structure-left ul {
+    font-size: clamp(9px, 4.2vw, 11px) !important;
+    line-height: 1.5 !important;
+    transform: translateY(-67px);
+    padding: 0px 20px;
+  }
+  
+  .structure-circles {
+     position: static !important;
+      display: flex !important;
+      flex-wrap: wrap !important;
+      justify-content: center !important;
+      align-items: center !important;
+      gap: 2px 8px !important; 
+      width: 40% !important;
+      height: auto !important;
+      margin-top: 20px !important;
+      transform: translateY(-300px);
+      margin-left:220px ;
+  }
+  .structure-circles > div {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .structure-circles img{
+    width: 35px;
+    height: 35px;
+  }
+
+  .denushka{
+    width: 38px !important;
+    height: 38px !important;
+    margin-right: 15px;
+  }
+
+  .teama{
+    width: 30px !important;
+    height: 30px !important;
+  }
+
+   .red-circle{
+    background: #780f0f;
+    border-radius: 50%;
+    position: absolute;
+    top:14px;
+    left: -4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 8px;
+    font-weight: 700;
+    width: 11px;
+    height: 11px;    
+  }
+
+  /* Команда */
+  .team-title {
+    position: static !important;
+  }
+  .team-title p {
+    font-size: clamp(20px, 6.5vw, 28px) !important;
+    text-align: center !important;
+    margin: 16px 0 !important;
+    transform: translateY(-255px);
+  }
+  .team-slider {
+    position: static !important;
+  }
+  .team-slider > div {
+    width: 280px !important;
+    height:270px !important;
+    transform: translateY(-275px);
+  }
+  .team-slider > div > div {
+    flex: 0 0 100% !important;
+    height:270px !important;
+  }
+
+  /* Блок МАК-карты */
+  .mac-text {
+    width: 100% !important;
+    left: 0 !important;
+    position: static !important;
+    transform: translateY(-250px);
+  }
+  .mac-text p {
+    font-size: clamp(10px, 4.2vw, 12px) !important;
+    text-align: center !important;
+  }
+
+  /* Тарифы */
+  .tariffs-title {
+    position: static !important;
+  }
+  .tariffs-title p {
+    font-size: clamp(10px, 6.5vw, 20px) !important;
+    text-align: center !important;
+    margin: 16px 0 !important;
+    transform: translateY(-425px);
+  }
+  .tariffs {
+    position: static !important;
+    gap: 16px !important;
+     transform: translateY(-440px);
+  }
+  .tariffs > div {
+    width: 164px !important;
+    height: 280px !important;
+    padding: 20px !important;
+  }
+  .CardBlack{
+    width: 164px !important;
+    height: 257px !important;
+   
+  }
+  .cardRed {
+    width: 164px !important;
+    height: 310px !important;
+    padding: 20px !important;
+  }
+
+  .tariffs h3 {
+    font-size: clamp(5px, 5.5vw, 14px) !important;
+  }
+  .tariffs ul {
+    font-size: clamp(5px, 4.2vw, 10px) !important;
+    transform: translateY(-30px);
+  }
+
+
+  .tariffs [style*="rotate(-15deg)"] {
+    width: 46px !important;
+    height: 44px !important;
+    font-size: 14px !important;
+    top: -15px !important;
+    right: -12px !important;
+  }
+
+  /* Форма */
+  .lead-form {
+    width: 319px !important;
+    height: 604px;
+    padding: 20px !important;
+    top: 0 !important;
+    gap: 16px !important;
+    transform: translateY(-380px);
     
   }
   .lead-form h2 {
