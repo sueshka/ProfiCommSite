@@ -534,7 +534,7 @@ const inputStyle = {
                       scrollSnapAlign: "center",
                       position: "relative"
                     }}>
-                      <Image src="/images/mama_team.jpg" alt="" fill style={{ objectFit: "cover", borderRadius: "20px" }}/>
+                      <Image src="/images/mama_team.JPG" alt="" fill style={{ objectFit: "cover", borderRadius: "20px" }}/>
                     </div>
 
                       {/* Tanya Info */}
@@ -554,7 +554,7 @@ const inputStyle = {
                       scrollSnapAlign: "center",
                       position: "relative"
                     }}>
-                      <Image src="/images/sasha_team.jpg" alt="" fill style={{ objectFit: "cover", borderRadius: "20px" }}/>
+                      <Image src="/images/sasha_team.JPG" alt="" fill style={{ objectFit: "cover", borderRadius: "20px" }}/>
                     </div>
 
                        {/* Sasha Info */}
