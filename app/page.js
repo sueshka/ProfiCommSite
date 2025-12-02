@@ -957,6 +957,8 @@ const inputStyle = {
                   </button>
                 </div>
               </div>
+                <p className="Disclaimer" style={{fontSize:38, fontWeight:600, textAlign:"center", color: "#7B0E0E"}}>Перед участием требуется предоплата 20%. <br/> Она удерживается в случае невозможности участия, так как бронь места фиксируется заранее.
+                После оплаты вы можете отправить чек в наш WhatsApp.</p>
             </div>
 
             <form
