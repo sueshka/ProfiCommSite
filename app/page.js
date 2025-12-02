@@ -1,5 +1,5 @@
 'use client';
-const WHATSAPP_NUMBER = "+996770535395"; // Replace with Tanya's WhatsApp number +996775971444
+const WHATSAPP_NUMBER = "+996775971444"; // Replace with Tanya's WhatsApp number +996775971444
 import Image from "next/image";
 import './globals.css';
 import { useState } from "react";
