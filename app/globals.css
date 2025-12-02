@@ -353,6 +353,12 @@ body {
     right: -12px !important;
   }
 
+  
+  .Disclaimer{
+    font-size: 13px !important;
+    width:310px !important;
+  }
+
   /* Форма */
   .lead-form {
     width: 319px !important;
@@ -360,7 +366,7 @@ body {
     padding: 20px !important;
     top: 0 !important;
     gap: 16px !important;
-    transform: translateY(-400px);
+    transform: translateY(-425px);
     
   }
   .lead-form h2 {
@@ -890,6 +896,15 @@ body {
     height: 390px !important;
   }
 
+  .Disclaimer{
+    font-size: 13px !important;
+    width:310px !important;
+  }
+
+  .lead-form {
+    transform: translateY(-435px);
+  }
+
   .lead-form > div {
     flex-direction: column !important;
     gap: 5px !important;
@@ -925,7 +940,7 @@ body {
   .watermark{
      font-weight: 600;
      font-size: 15px !important;
-     margin-top: -320px !important; 
+     margin-top: -365px !important; 
      margin-bottom: 10px !important;  
   }
 
@@ -1341,9 +1356,19 @@ body {
     height: 390px !important;
   }
 
+  .Disclaimer{
+    font-size: 13px !important;
+    width:350px !important;
+  }
+  .lead-form {
+   
+    transform: translateY(-415px);
+  }
+
   .lead-form > div {
     flex-direction: column !important;
     gap: 5px !important;
+    
   }
 
   .lead-form > div > div {
@@ -1717,6 +1742,12 @@ button, a {
     right: -30px !important;
   }
 
+  .Disclaimer{
+   font-size: 24px !important;
+   width: 900px !important;
+ 
+  }
+
   /* Форма */
   .lead-form {
     width: 619px !important;
@@ -1724,8 +1755,7 @@ button, a {
     padding: 20px !important;
     top: 0 !important;
     gap: 16px !important;
-    transform: translateY(-400px);
-    
+    transform: translateY(-450px);
   }
   .lead-form h2 {
     font-size: clamp(18px, 6vw, 22px) !important;
@@ -1869,12 +1899,7 @@ button, a {
     z-index: 10; 
   }
 
-  .watermark{
-    font-weight: 600;
-    font-size: 20px !important;
-    margin-top: -280px !important; 
-    margin-bottom: 10px !important;  
-  }
+ 
   }
 
   @media (min-width: 1440px) and (max-width:1500px) {
@@ -2196,6 +2221,12 @@ button, a {
     right: -55px !important;
   }
 
+  .Disclaimer{
+   font-size: 28px !important;
+   width: 1300px !important;
+ 
+  }
+
   /* Форма */
   .lead-form {
     width: 719px !important;
@@ -2203,7 +2234,7 @@ button, a {
     padding: 20px !important;
     top: 0 !important;
     gap: 16px !important;
-    transform: translateY(-550px);
+    transform: translateY(-600px);
     
   }
   .lead-form h2 {
@@ -2402,7 +2433,7 @@ button, a {
     .watermark{
     font-weight: 600;
     font-size: 20px !important;
-    margin-top: -580px !important; 
+    margin-top: -980px !important; 
    
   }
 }
